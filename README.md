@@ -3,10 +3,12 @@
 
 
 Para un uso fuera de OpenWrt, usa "#/bin/bash" al inicio del script.
+Recuerde cambiar los ajustes del botón de OpenWRT para que al precionarlo, encienda el Script
 
 # Requisitos:
-Sleep
-OpenSSH
+`Requiere
+Sleep & OpenSSH `
+
 
 # Uso
 
@@ -20,7 +22,7 @@ Coloca el git dentro de /root y ejecutalo para las siguientes configuraciones
 En caso de fallas borre el archivo temporal
 
 
-# COMO USAR IFTTT INTEGRADO:
+# Como usar IFTTT integrado:
 
 Primero edite el script en la sección de la función "enviar_ifttt" para poner su WebHook (link) obtenido por IFTTT
 https://domoticasa.net/guia-completa-de-ifttt-para-domotica/
@@ -29,3 +31,10 @@ Puede utilizarlo para una amplica variedad en su output de IFTTT, en el caso nat
 La primera notificación muestra que el sistema inició con el horario en formato HH:MM:SS. Para la segunda notificación (apagado), muestra la finalización del sistema con el horario transcurrido en formato HH:MM:SS.
 
 Estas configuraciones pueden ser modificadas para que usted envie un mensaje personalizado
+
+# Integración ssh
+> Para iniciar el script de manera remota y fácil, use la app https://play.google.com/store/apps/details?id=org.openobjectives.serverassistant&hl=es_419
+
+Agregue el hostname o IP de su router (si lo usa como cliente de otra RED, si no, salte este paso)
+Permita el uso de SSH por la red WAN en la configuración de LuCi
+
