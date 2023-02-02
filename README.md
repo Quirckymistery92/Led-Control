@@ -14,9 +14,15 @@ Sleep & OpenSSH `
 
 Coloca el git dentro de /root y ejecutalo para las siguientes configuraciones
 
-/bin/sh /root/led_control.sh start #Ejecuta el Script y hace un timer de 3 pulsos para el LED "LAN" & luego de haber hecho el de 3 pulsos, cambia automaticamente para 2 pulsos (intervalo entre 3 y 2 pulsos automaticos [Usando un archivo TEMP])
+```bash
+/bin/sh /root/led_control.sh start 
 
-/bin/sh /root/led_control.sh -c 3 #Enciende y apaga el LED las determinadas veces (Cambia el numero delante de "-c" para cambiar las veces que se repita el encenido del LED)
+#Ejecuta el Script y hace un timer de 3 pulsos para el LED "LAN" & luego de haber hecho el de 3 pulsos, cambia automaticamente para 2 pulsos (intervalo entre 3 y 2 pulsos automaticos [Usando un archivo TEMP])
+
+/bin/sh /root/led_control.sh -c 3 
+
+#Enciende y apaga el LED las determinadas veces (Cambia el numero delante de "-c" para cambiar las veces que se repita el encenido del LED)
+```
 
 #Modifique el archivo temporal solo para configuraciones que necesite (configuracion IFTTT)
 En caso de fallas borre el archivo temporal
