@@ -25,7 +25,7 @@ Coloca el git dentro de /root y ejecutalo para las siguientes configuraciones
 ```
 
 #Modifique el archivo temporal solo para configuraciones que necesite (configuracion IFTTT)
-** En caso de fallas, borrar el archivo temporal en el directorio del script **
+**En caso de fallas, borrar el archivo temporal en el directorio del script**
 
 
 # Como usar IFTTT integrado:
