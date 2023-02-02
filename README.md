@@ -4,9 +4,11 @@
 
 Para un uso fuera de OpenWrt, usa "#/bin/bash" al inicio del script.
 
-Rquisitos:
+# Requisitos:
 Sleep
 OpenSSH
+
+# Uso
 
 Coloca el git dentro de /root y ejecutalo para las siguientes configuraciones
 
@@ -18,7 +20,7 @@ Coloca el git dentro de /root y ejecutalo para las siguientes configuraciones
 En caso de fallas borre el archivo temporal
 
 
-COMO USAR IFTTT INTEGRADO:
+# COMO USAR IFTTT INTEGRADO:
 
 Primero edite el script en la sección de la función "enviar_ifttt" para poner su WebHook (link) obtenido por IFTTT
 https://domoticasa.net/guia-completa-de-ifttt-para-domotica/
